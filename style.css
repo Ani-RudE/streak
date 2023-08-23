@@ -1,8 +1,17 @@
+@font-face {
+     font-family: Poppins-Regular;
+     src: url(Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+     font-family: Poppins-Lighter;
+     src: url(Fonts/Poppins-Light.ttf);
+}
+
 * {
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-     font-family: Poppins;
      /* background: #00030F; */
      /* background-color: #121212; */
      color: white;
@@ -16,6 +25,7 @@
 }
 
 .hero-container {
+     font-family: Poppins;
      width: 100%;
      height: 812px;
      flex-shrink: 0;
@@ -320,7 +330,74 @@
      flex-shrink: 0;
      background: #44D464;
      border-radius: 20px;
-     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.game-1 {
+     background: url("https://cdn.discordapp.com/attachments/1075621727004016721/1143886862428151808/Valo.png"), lightgray 50% / cover no-repeat;
+}
+
+.game-2 {
+     background: url("https://cdn.discordapp.com/attachments/1075621727004016721/1143886862663024710/Apex.png"), lightgray 50% / cover no-repeat;
+}
+
+.game-3 {
+     background: url("https://cdn.discordapp.com/attachments/1075621727004016721/1143886862876942457/CODW.png"), lightgray 50% / cover no-repeat;
+}
+
+.game-4 {
+     background: url("https://cdn.discordapp.com/attachments/1075621727004016721/1143886863116009513/CSGO.png"), lightgray 50% / cover no-repeat;
+}
+
+.body-1-gameRow1-names {
+     color: #FFF;
+     /* text-align: center; */
+     font-family: sans-serif;
+     font-size: 10px;
+     line-height: 187.5%; /* 41.25px */
+     position: absolute;
+     left: 25%;
+     top: 1324px;
+}
+
+.body-2-gameRow1 {
+     width: 1258px;
+     height: 361px;
+     position: absolute;
+     left: 110px;
+     top: 1434px;
+     display: inline-flex;
+     align-items: flex-start;
+     gap: 84px;
+}
+
+.game-5,
+.game-6,
+.game-7,
+.game-8 {
+     /* position: absolute;
+     left: 0px;
+     top: 0px; */
+     width: 252px;
+     height: 277px;
+     flex-shrink: 0;
+     background: #44D464;
+     border-radius: 20px;
+}
+
+.game-5 {
+     background: url("https://cdn.discordapp.com/attachments/1075621727004016721/1143886863380267028/FIFA23.png"), lightgray 50% / cover no-repeat;
+}
+
+.game-6 {
+     background: url("https://cdn.discordapp.com/attachments/1075621727004016721/1143886863627722863/Forza.png"), lightgray 50% / cover no-repeat;
+}
+
+.game-7 {
+     background: url("https://cdn.discordapp.com/attachments/1075621727004016721/1143886864026189916/GTAV.png"), lightgray 50% / cover no-repeat;
+}
+
+.game-8 {
+     background: url("https://cdn.discordapp.com/attachments/1075621727004016721/1143886864269451436/LOL.png"), lightgray 50% / cover no-repeat;
 }
 
 /* {
