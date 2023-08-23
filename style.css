@@ -3,8 +3,9 @@
      padding: 0;
      box-sizing: border-box;
      font-family: Poppins;
-     /* background-color: #121212;
-     color: white; */
+     /* background: #00030F; */
+     /* background-color: #121212; */
+     color: white;
 }
 
 .box {
@@ -191,6 +192,7 @@
      position: absolute;
      left: 570px;
      top: 577px;
+     cursor: pointer;
 }
 
 .creators-btn-text {
@@ -216,6 +218,7 @@
      position: absolute;
      left: 770px;
      top: 577px;
+     cursor: pointer;
 }
 
 .games-btn-text {
@@ -232,21 +235,98 @@
 }
 
 /* ERROR */
-.arrow-down-svg {
+#arrow-down-svg {
      width: 26px;
      height: 20.057px;
      flex-shrink: 0;
      position: absolute;
-     left: 707px;
-     top: 751px;
+     left: 742px;
+     top: 700px;
 }
 
+#hero-bottom-line {
+     stroke-width: 5px;
+     stroke: #44D464;
+     width: 380px;
+     /* height: 0px; */
+     flex-shrink: 0;
+     position: absolute;
+     left: 561.5px;
+     top: 750px;
+}
 
+.body-1 {
+     background: #00030F;
+     width: 100%;
+     height: 1000px;
+}
+
+.body-1-title {
+     color: #FFF;
+     font-family: Gotham;
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 187.5%;
+     /* 78.75px */
+     position: absolute;
+     left: 110px;
+     top: 906px;
+}
+
+.body1-see-all {
+     color: #FFF;
+     font-family: Poppins;
+     background: rgba(255, 255, 255, 0.11);
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 187.5%;
+     position: absolute;
+     left: 1260px;
+     top: 906px;
+     cursor: pointer;
+     width: 120px;
+     height: 50px;
+     border-radius: 10px;
+}
+
+.see-all-btn {
+     position: absolute;
+     left: 25px;
+     top: 7px;
+}
+
+.body-1-gameRow1 {
+     width: 1258px;
+     height: 361px;
+     position: absolute;
+     left: 110px;
+     top: 1027px;
+     display: inline-flex;
+     align-items: flex-start;
+     gap: 84px;
+}
+
+.game-1,
+.game-2,
+.game-3,
+.game-4 {
+     /* position: absolute;
+     left: 0px;
+     top: 0px; */
+     width: 252px;
+     height: 277px;
+     flex-shrink: 0;
+     background: #44D464;
+     border-radius: 20px;
+     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
 
 /* {
      position: absolute;
-     left: 100px;
-     top: 100px;
+     left: 0px;
+     top: 0px;
 } */
 
 /* D:\GitHub_Repositories\Web_Dev\Streak_GamingWebsite\Img */
