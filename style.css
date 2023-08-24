@@ -4,8 +4,13 @@
 }
 
 @font-face {
-     font-family: Poppins-Lighter;
+     font-family: Poppins-Light;
      src: url(Fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+     font-family: Poppins-Medium;
+     src: url(Fonts/Poppins-Medium.ttf);
 }
 
 * {
@@ -17,6 +22,11 @@
      color: white;
 }
 
+
+
+
+
+/* ---------- SECTION 1 // HERO BANNER ---------- */
 .box {
      width: 150px;
      height: 150px;
@@ -265,6 +275,11 @@
      top: 750px;
 }
 
+
+
+
+
+/* ---------- SECTION 2 // POPULAR GAMES SECTION ---------- */
 .body-1 {
      background: #00030F;
      width: 100%;
@@ -277,8 +292,7 @@
      font-size: 32px;
      font-style: normal;
      font-weight: 700;
-     line-height: 187.5%;
-     /* 78.75px */
+     line-height: 187.5%; /* 78.75px */
      position: absolute;
      left: 110px;
      top: 906px;
@@ -350,16 +364,49 @@
 
 .body-1-gameRow1-names {
      color: #FFF;
-     /* text-align: center; */
-     font-family: sans-serif;
+     font-family: Poppins-Medium;
      font-size: 10px;
      line-height: 187.5%; /* 41.25px */
-     position: absolute;
-     left: 25%;
-     top: 1324px;
+     letter-spacing: 1px;
 }
 
-.body-2-gameRow1 {
+.game-name-1 {
+     text-align: center;
+     position: absolute;
+     left: 110px;
+     top: 1324px;
+     width: 251px;
+     height: auto;
+}
+
+.game-name-2 {
+     text-align: center;
+     position: absolute;
+     left: 451px;
+     top: 1324px;
+     width: 251px;
+     height: auto;
+}
+
+.game-name-3 {
+     text-align: center;
+     position: absolute;
+     left: 784px;
+     top: 1324px;
+     width: 251px;
+     height: auto;
+}
+
+.game-name-4 {
+     text-align: center;
+     position: absolute;
+     left: 1123px;
+     top: 1324px;
+     width: 251px;
+     height: auto;
+}
+
+.body-1-gameRow2 {
      width: 1258px;
      height: 361px;
      position: absolute;
@@ -384,6 +431,51 @@
      border-radius: 20px;
 }
 
+.body-1-gameRow2-names {
+     color: #FFF;
+     font-family: Poppins-Medium;
+     font-size: 10px;
+     line-height: 187.5%;
+     /* 41.25px */
+     letter-spacing: 1px;
+}
+
+.game-name-5 {
+     text-align: center;
+     position: absolute;
+     left: 110px;
+     top: 1734px;
+     width: 251px;
+     height: auto;
+}
+
+.game-name-6 {
+     text-align: center;
+     position: absolute;
+     left: 451px;
+     top: 1734px;
+     width: 251px;
+     height: auto;
+}
+
+.game-name-7 {
+     text-align: center;
+     position: absolute;
+     left: 784px;
+     top: 1734px;
+     width: 251px;
+     height: auto;
+}
+
+.game-name-8 {
+     text-align: center;
+     position: absolute;
+     left: 1123px;
+     top: 1734px;
+     width: 251px;
+     height: auto;
+}
+
 .game-5 {
      background: url("https://cdn.discordapp.com/attachments/1075621727004016721/1143886863380267028/FIFA23.png"), lightgray 50% / cover no-repeat;
 }
@@ -399,6 +491,55 @@
 .game-8 {
      background: url("https://cdn.discordapp.com/attachments/1075621727004016721/1143886864269451436/LOL.png"), lightgray 50% / cover no-repeat;
 }
+
+
+
+
+
+/* ---------- SECTION 3 // CREATORS SECTION ---------- */
+.body-2{
+     background: #00030F;
+     width: 100%;
+     height: 1000px;
+}
+
+.body2-title-text {
+     color: #FFF;
+     font-family: Gotham;
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 187.5%; /* 78.75px */
+     position: absolute;
+     left: 110px;
+     top: 1895px;
+}
+
+.body2-btn{
+     color: #FFF;
+     font-family: Poppins;
+     background: rgba(255, 255, 255, 0.11);
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 187.5%;
+     position: absolute;
+     left: 1260px;
+     top: 1895px;
+     cursor: pointer;
+     width: 120px;
+     height: 50px;
+     border-radius: 10px;
+}
+
+.body2-btn-text{
+     position: absolute;
+     left: 25px;
+     top: 7px;
+}
+
+
+
 
 /* {
      position: absolute;
