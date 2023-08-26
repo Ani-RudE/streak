@@ -1,0 +1,34 @@
+@font-face {
+     font-family: Poppins-Regular;
+     src: url(Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+     font-family: Poppins-Light;
+     src: url(Fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+     font-family: Poppins-Medium;
+     src: url(Fonts/Poppins-Medium.ttf);
+}
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     /* background: #00030F; */
+     /* background-color: #121212; */
+     color: white;
+}
+
+a{
+     cursor: pointer;
+     text-decoration: none;
+}
+
+
+
+
+
+/* ---------- SECTION 1 // HERO BANNER ---------- */
