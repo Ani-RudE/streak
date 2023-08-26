@@ -292,7 +292,8 @@
      font-size: 32px;
      font-style: normal;
      font-weight: 700;
-     line-height: 187.5%; /* 78.75px */
+     line-height: 187.5%;
+     /* 78.75px */
      position: absolute;
      left: 110px;
      top: 906px;
@@ -366,7 +367,8 @@
      color: #FFF;
      font-family: Poppins-Medium;
      font-size: 10px;
-     line-height: 187.5%; /* 41.25px */
+     line-height: 187.5%;
+     /* 41.25px */
      letter-spacing: 1px;
 }
 
@@ -497,7 +499,7 @@
 
 
 /* ---------- SECTION 3 // CREATORS SECTION ---------- */
-.body-2{
+.body-2 {
      background: #00030F;
      width: 100%;
      height: 1000px;
@@ -509,13 +511,14 @@
      font-size: 32px;
      font-style: normal;
      font-weight: 700;
-     line-height: 187.5%; /* 78.75px */
+     line-height: 187.5%;
+     /* 78.75px */
      position: absolute;
      left: 110px;
      top: 1895px;
 }
 
-.body2-btn{
+.body2-btn {
      color: #FFF;
      font-family: Poppins;
      background: rgba(255, 255, 255, 0.11);
@@ -532,17 +535,16 @@
      border-radius: 10px;
 }
 
-.body2-btn-text{
+.body2-btn-text {
      position: absolute;
      left: 25px;
      top: 7px;
 }
 
-.creator-1{
+.creator-1 {
      position: absolute;
      /* left: 90px; */
      top: 2029px;
-     background-color: red;
      width: 100%;
      height: 313px;
      display: inline-flex;
@@ -552,23 +554,138 @@
      padding-right: 110px;
 }
 
-.creator1-sec1{
-     background-color: blue;
-     width: 100px;
-     height: 100px;
+.creator1-sec1 {
+     width: 205px;
+     height: 299px;
 }
 
-.creator1-sec2{
-     background-color: yellow;
-     width: 100px;
-     height: 100px;
+.creator1-img {
+     width: 80px;
+     height: 89px;
+     flex-shrink: 0;
+     background-image: url(https://cdn.discordapp.com/attachments/1075621727004016721/1144680724256002089/PFP_1.png);
+     position: absolute;
+     left: 155px;
 }
 
-.creator1-vid{
-     background-color: green;
-     width: 100px;
-     height: 100px;
+.creator1-name {
+     color: #FFF;
+     font-family: Gotham;
+     font-size: 30px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 180.5%;
+     /* 54.15px */
+     position: absolute;
+     left: 90px;
+     top: 105px;
 }
+
+.creator1-followers {
+     color: #FFF;
+     font-family: Gotham;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 180.5%;
+     /* 28.88px */
+     position: absolute;
+     left: 136px;
+     top: 166px;
+}
+
+.creator1-followBTN {
+     width: 97px;
+     height: 35px;
+     flex-shrink: 0;
+     border-radius: 10px;
+     background: #44D464;
+     position: absolute;
+     left: 146px;
+     top: 216px;
+}
+
+.creator1-followBTN-text {
+     color: #080808;
+     font-family: Gotham;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     position: absolute;
+     left: 20px;
+     top: 11px;
+}
+
+.creator1-insta {
+     width: 24px;
+     height: 24px;
+     position: absolute;
+     left: 163px;
+     top: 283px;
+}
+
+.creator1-twitter {
+     width: 24px;
+     height: 24px;
+     position: absolute;
+     left: 202px;
+     top: 283px;
+}
+
+.creator1-sec2 {
+     width: 357px;
+     height: 313px;
+     flex-shrink: 0;
+}
+
+.creator1-des {
+     color: #FFF;
+     text-align: justify;
+     font-family: Gotham;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 187.5%;
+     /* 26.25px */
+}
+
+.creator1-vid {
+     width: 518px;
+     height: 313px;
+     flex-shrink: 0;
+     border-radius: 16px;
+     background: url(https://cdn.discordapp.com/attachments/1075621727004016721/1144680724457332876/creator1_vid.png), no-repeat;
+     /* box-shadow: 0px 2px 4px 0px rgba(47, 48, 53, 0.15); */
+}
+
+.creator1-vidBTN {
+     width: 59.467px;
+     height: 56.089px;
+     flex-shrink: 0;
+     position: absolute;
+     top: 128.56px;
+     left: 1060.77px;
+}
+
+.creator-2 {
+     position: absolute;
+     /* left: 90px; */
+     top: 2418px;
+     width: 100%;
+     height: 313px;
+     display: inline-flex;
+     align-items: center;
+     gap: 90px;
+     padding-left: 110px;
+     padding-right: 110px;
+}
+
+.footer {
+     width: 100%;
+     height: 426px;
+     flex-shrink: 0;
+} 
 
 
 
