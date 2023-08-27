@@ -22,13 +22,428 @@
      color: white;
 }
 
-a{
+a {
      cursor: pointer;
      text-decoration: none;
+}
+
+body {
+     width: 100%;
+     height: 3095px;
+     background: #00030F;
 }
 
 
 
 
 
-/* ---------- SECTION 1 // HERO BANNER ---------- */
+/* --------------- HERO BANNER --------------- */
+.hero-banner {
+     width: 100%;
+     height: 810px;
+     flex-shrink: 0;
+}
+
+.bg-img {
+     width: 100%;
+     height: 810px;
+     flex-shrink: 0;
+     background: url(https://cdn.discordapp.com/attachments/1075621727004016721/1145294871435939940/Bg_image.png) center no-repeat;
+     background-size: cover;
+}
+
+.bg-effect1 {
+     position: absolute;
+     top: 0px;
+     width: 100%;
+     height: 810px;
+     flex-shrink: 0;
+     background: url(https://cdn.discordapp.com/attachments/1075621727004016721/1145296728094949436/Rectangle-1.png) center no-repeat;
+     background-size: cover;
+}
+
+.bg-effect2 {
+     position: absolute;
+     top: 0px;
+     width: 100%;
+     height: 810px;
+     flex-shrink: 0;
+     background: url(https://cdn.discordapp.com/attachments/1075621727004016721/1145296727365144738/Rectangle.png) center no-repeat;
+     background-size: cover;
+}
+
+.logo {
+     width: 106px;
+     height: 20px;
+     flex-shrink: 0;
+     position: absolute;
+     left: 60px;
+     top: 25px;
+}
+
+.logo-text {
+     width: 100.173px;
+     height: 20px;
+     flex-shrink: 0;
+     color: var(--beyaz, #E9E9E9);
+     font-family: Gotham;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     letter-spacing: 1.4px;
+}
+
+.logo-text2 {
+     display: none;
+}
+
+.logo-svg {
+     width: 7px;
+     height: 7px;
+     flex-shrink: 0;
+     fill: #44D464;
+     position: absolute;
+     left: 99px;
+     top: 7px;
+}
+
+@media (max-width: 925px) {
+     .hero-banner {
+          height: 100vh;
+     }
+
+     .bg-effect1 {
+          height: 100vh;
+     }
+
+     .bg-effect2 {
+          height: 100vh;
+          /* display: none; */
+     }
+
+     .bg-img {
+          background-size: cover;
+          height: 100vh;
+     }
+
+     .logo {
+          width: 106px;
+          height: 20px;
+          flex-shrink: 0;
+          position: absolute;
+          left: 30px;
+          top: 25px;
+     }
+
+     .logo-text {
+          display: none;
+     }
+
+     .logo-text2 {
+          display: inline;
+          width: 100.173px;
+          height: 20px;
+          flex-shrink: 0;
+          color: var(--beyaz, #E9E9E9);
+          font-family: Gotham;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: 1.4px;
+     }
+
+     .logo-svg {
+          width: 7px;
+          height: 7px;
+          flex-shrink: 0;
+          fill: #44D464;
+          position: absolute;
+          left: 20px;
+          top: 7px;
+     }
+}
+
+.nav-links {
+     display: inline-flex;
+     align-items: flex-start;
+     gap: 50px;
+     position: absolute;
+     left: 0px;
+     top: 25px;
+     width: 100%;
+     justify-content: center;
+}
+
+.active-link {
+     width: 60px;
+     height: 6px;
+     flex-shrink: 0;
+}
+
+@media (max-width: 925px) {
+     .nav-links {
+          display: inline-flex;
+          align-items: flex-start;
+          gap: 25px;
+          position: absolute;
+          left: 0px;
+          top: 25px;
+          width: 100%;
+          justify-content: center;
+     }
+}
+
+.loginBTN {
+     width: 131px;
+     height: 35px;
+     flex-shrink: 0;
+     position: absolute;
+     right: 59px;
+     top: 25px;
+     background-color: #44D464;
+     border-radius: 2px;
+}
+
+.login-text {
+     color: #080808;
+     font-family: Gotham;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     position: absolute;
+     left: 55px;
+     top: 11px;
+}
+
+.login-svg {
+     position: absolute;
+     left: 24px;
+     top: 9px;
+}
+
+@media (max-width: 925px) {
+     .loginBTN {
+          width: 50px;
+          height: 35px;
+          flex-shrink: 0;
+          position: absolute;
+          right: 30px;
+          top: 25px;
+          background-color: #44D464;
+          border-radius: 2px;
+     }
+
+     .login-text {
+          display: none;
+     }
+
+     .login-svg {
+          position: absolute;
+          left: 17px;
+          top: 9px
+     }
+
+     .login-text {
+          display: none;
+     }
+}
+
+.title {
+     width: 900px;
+     color: #FFF;
+     text-align: center;
+     font-family: Gotham;
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     text-transform: uppercase;
+     position: absolute;
+     top: 223px;
+     width: 100%;
+     justify-content: center;
+}
+
+.sub-head {
+     width: 667px;
+     color: #DDD;
+     text-align: center;
+     font-family: Gotham;
+     font-size: 22px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     text-transform: uppercase;
+     position: absolute;
+     top: 283px;
+     width: 100%;
+     justify-content: center;
+}
+
+.text-des-DIV {
+     width: 100%;
+     position: absolute;
+     top: 380px;
+     width: 100%;
+     text-align: center;
+}
+
+.text-des {
+     width: 667px;
+     color: #E7E7E7;
+     text-align: center;
+     font-family: Gotham;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     text-transform: uppercase;
+     /* position: absolute;
+     top: 380px;
+     width: 100%; */
+     margin: 0 auto;
+}
+
+.dwnld {
+     width: 667px;
+     color: #DDD;
+     text-align: center;
+     font-family: Gotham;
+     font-size: 26px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     text-transform: uppercase;
+     width: 100%;
+     margin: 0 auto;
+     position: absolute;
+     top: 527px;
+}
+
+@media (max-width: 925px) {
+     .title {
+          font-size: 30px;
+     }
+
+     .sub-head {
+          font-size: 18px;
+          /* position: absolute; */
+          top: 263px;
+     }
+
+     .text-des-DIV {
+          width: 100%;
+          position: absolute;
+          top: 320px;
+          width: 100%;
+          text-align: center;
+     }
+
+     .text-des {
+          width: 530px;
+          font-size: 14px;
+     }
+
+     .dwnld {
+          font-size: 20px;
+          top: 410px;
+     }
+}
+
+.button-grp {
+     width: 369px;
+     height: 39px;
+     position: absolute;
+     top: 601px;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.followBTN {
+     width: 172px;
+     height: 39px;
+     border-radius: 3px;
+     background: #070E31;
+     box-shadow: 2px 2px 0px 0px #44D464;
+     top: 0px;
+     margin: 0 10px;
+}
+
+.buyBTN {
+     width: 172px;
+     height: 39px;
+     border-radius: 3px;
+     background: #070E31;
+     box-shadow: 2px 2px 0px 0px #44D464;
+     top: 0px;
+     margin: 0 10px;
+}
+
+.button-grp-text1 {
+     color: #D9D9D9;
+     font-family: Gotham;
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     text-transform: uppercase;
+     position: absolute;
+     left: 52px;
+     top: 8px;
+}
+
+.button-grp-text2 {
+     color: #D9D9D9;
+     font-family: Gotham;
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     text-transform: uppercase;
+     position: absolute;
+     left: 255px;
+     top: 8px;
+}
+
+@media (max-width: 925px) {
+     .button-grp {
+          top: 501px;
+     }
+}
+
+
+
+
+
+/* --------------- BODY SECTION #1 --------------- */
+.body-sec-1 {
+     width: 1260px;
+     height: 482px;
+     flex-shrink: 0;
+}
+
+
+
+
+
+/* 
+
+@media (max-width: 925px) {
+     
+}
+
+{
+     position: absolute;
+     left: px;
+     top: px;
+} 
+
+*/
+
+/* D:\GitHub_Repositories\Web_Dev\Streak_GamingWebsite\Img */
