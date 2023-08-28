@@ -79,6 +79,7 @@ body {
      position: absolute;
      left: 60px;
      top: 25px;
+     cursor: pointer;
 }
 
 .logo-text {
@@ -92,10 +93,12 @@ body {
      font-weight: 500;
      line-height: normal;
      letter-spacing: 1.4px;
+     cursor: pointer;
 }
 
 .logo-text2 {
      display: none;
+     cursor: pointer;
 }
 
 .logo-svg {
@@ -106,6 +109,7 @@ body {
      position: absolute;
      left: 99px;
      top: 7px;
+     cursor: pointer;
 }
 
 @media (max-width: 925px) {
@@ -134,10 +138,12 @@ body {
           position: absolute;
           left: 30px;
           top: 25px;
+          cursor: pointer;
      }
 
      .logo-text {
           display: none;
+          cursor: pointer;
      }
 
      .logo-text2 {
@@ -152,6 +158,7 @@ body {
           font-weight: 500;
           line-height: normal;
           letter-spacing: 1.4px;
+          cursor: pointer;
      }
 
      .logo-svg {
@@ -162,6 +169,7 @@ body {
           position: absolute;
           left: 20px;
           top: 7px;
+          cursor: pointer;
      }
 }
 
@@ -204,6 +212,7 @@ body {
      top: 25px;
      background-color: #44D464;
      border-radius: 2px;
+     cursor: pointer;
 }
 
 .login-text {
@@ -373,6 +382,7 @@ body {
      box-shadow: 2px 2px 0px 0px #44D464;
      top: 0px;
      margin: 0 10px;
+     cursor: pointer;
 }
 
 .buyBTN {
@@ -383,6 +393,7 @@ body {
      box-shadow: 2px 2px 0px 0px #44D464;
      top: 0px;
      margin: 0 10px;
+     cursor: pointer;
 }
 
 .button-grp-text1 {
@@ -423,9 +434,49 @@ body {
 
 /* --------------- BODY SECTION #1 --------------- */
 .body-sec-1 {
-     width: 1260px;
+     width: 100%;
      height: 482px;
      flex-shrink: 0;
+}
+
+.search-box svg {
+     position: absolute;
+     margin-left: -310px;
+     opacity: 42%;
+}
+
+.search-box {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: black;
+     width: 100%;
+     position: absolute;
+     top: 886px;
+}
+
+#search-input {
+     color: black;
+     width: 360px;
+     height: 42px;
+     padding-left: 10px;
+     border-radius: 10px;
+     position: absolute;
+}
+
+@media (max-width: 925px) {
+     .search-box svg {
+          margin-left: -252px;
+     }
+     
+     .search-box {
+          top: 720px;
+     }
+     
+     #search-input {
+          width: 300px;
+          height: 35px;
+     }
 }
 
 
