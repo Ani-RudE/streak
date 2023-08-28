@@ -114,7 +114,6 @@ function getVal() {
      const val = document.getElementById("search-input").value;
      console.log(val);
      game_data.forEach(redirect);
-
 }
 
 function redirect(item) {
